@@ -1,0 +1,76 @@
+body{
+  background-color: #ffcccc;
+  background: #f9f3f3;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+  img{
+  left: 200px;
+  width: 300px;
+  border-radius: 100px
+}
+h1{
+  padding: 2.5rem;
+  font-family: monospace;
+}
+
+p{
+  margin: 30px;
+}
+.int{
+  padding: 5rem;
+}
+.language{
+  padding: 2.5rem
+}
+.name{
+  font-size: 2.5rem;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 2.5rem auto;
+  letter-spacing: .15em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.footer{
+  color: #dddddd;
+  padding-left: 2.55rem;
+  padding-top: 2.5rem
+}
+.footer:hover{
+  color:#000000;
+}
+.title{
+  background-color: lightblue
+}
+.top-header{
+  background-color: white;
+box-shadow: 50px 50px 8px #888888;
+  border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px
+}
+
+.bodyi{
+  padding-bottom: 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
